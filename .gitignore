@@ -1,28 +1,36 @@
-# NPM packages folder.
-node_modules
-.expo
-# Build files
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# dependencies
+node_modules/
+
+# Expo
+.expo/
 dist/
+web-build/
+expo-env.d.ts
 
-# lock files
-yarn.lock
-package-lock.json
+# Native
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
 
-# Logs
-logs
-*.log
-npm-debug.log*
+# Metro
+.metro-health-check*
 
-# node-waf configuration
-.lock-wscript
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
 
-# Optional npm cache directory
-.npm
+# macOS
+.DS_Store
+*.pem
 
-# Optional REPL history
-.node_repl_history
+# local env files
+.env*.local
 
-# Jest Coverage
-coverage
-
-.history/
+# typescript
+*.tsbuildinfo

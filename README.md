@@ -1,2 +1,1 @@
-# reactNativeStudentLogin
-This is First React native Application build upon Expo.
+# This is a React native Application.
